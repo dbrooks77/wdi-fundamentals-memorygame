@@ -1,0 +1,64 @@
+.board {
+		height: 50%; 
+		width: 50%;
+		display: inline-block;
+		background: black;
+
+	}
+
+
+/* Changed card to green	
+*/
+.card {
+		height: 200px;
+		width: 150px;
+		background-color: #CEFF19;
+		border-radius: 10px;
+		border: black 1px solid;
+		float: left;
+		margin: 8%;
+		text-align: center;
+
+	}
+.name {
+		color: #ff0000;
+	}
+
+.clearfix:after {
+		visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+	}
+
+
+
+h1 {
+	color: rgb(2, 132, 130);
+	}
+
+h2 {
+	color: #ffd700;
+	}
+
+body {
+	text-align: center;
+	}
+
+nav {
+	background-color: #808080;
+	}
+
+nav a {
+	color: white;
+	background-color: #ffbf00;
+	padding: 35px;
+	float: left;
+	}
+a:hover {
+	background-color: #ee5f3c;
+	}
+footer {background-color: #808080;
+	}
