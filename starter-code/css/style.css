@@ -1,8 +1,21 @@
+
+
+body {
+
+	text-align: center;
+
+	
+
+	}
+
+
+
+
 .board {
 		height: 50%; 
 		width: 50%;
 		display: inline-block;
-		background: black;
+		
 
 	}
 
@@ -33,32 +46,53 @@
         font-size: 0;
 	}
 
+.Email{
+	color: black;
+	border-radius: 20px;
+	height: 5px;
+	background-color: #71FFBC;
+}
 
+img {
+	height: 200px;
+	width: 150px;
+}
 
 h1 {
 	color: rgb(2, 132, 130);
+	text-align: center;
 	}
 
 h2 {
 	color: #ffd700;
-	}
-
-body {
 	text-align: center;
 	}
+
+
+
+p {
+	font-family: Impact, Charcoal, sans-serif;
+	padding-right: 250px;
+	padding-left: 250px;
+	
+}
 
 nav {
 	background-color: #808080;
 	}
 
-nav a {
+a {
 	color: white;
-	background-color: #ffbf00;
+	background-color: #71FFBC;
 	padding: 35px;
-	float: left;
+	float: right;
+	display: block;
 	}
 a:hover {
 	background-color: #ee5f3c;
 	}
-footer {background-color: #808080;
+footer {
+	background-color: #808080;
+	text-align: center;
+	height: 75px;
 	}
